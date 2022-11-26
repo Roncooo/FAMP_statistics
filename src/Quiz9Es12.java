@@ -3,8 +3,8 @@
 public class Quiz9Es12 {
 
 	public static byte[] arr;
-	public static short f1 = 123;
-	public static short f2 = 144;
+	public static short f1 = 135;
+	public static short f2 = 127;
 	public static short tot = (short)(f1+f2);
 	public static long estrazioni_totali = 100000000;
 	public static byte nestr = 5;					// numero di elementi estratti
@@ -64,10 +64,13 @@ public class Quiz9Es12 {
 				if(rand[i] == rand[j])
 					i--;				
 			}
-			if(arr[rand[i]] == 0)
-				countCanale1++;			
 		}
 		
+		for(byte i=0; i<nestr; i++)
+		{
+			if(arr[rand[i]] == 0)
+				countCanale1++;						
+		}
 		return countCanale1;
 	}
 	
