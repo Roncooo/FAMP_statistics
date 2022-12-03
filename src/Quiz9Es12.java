@@ -3,8 +3,8 @@
 public class Quiz9Es12 {
 
 	public static byte[] arr;
-	public static short f1 = 135;
-	public static short f2 = 127;
+	public static short f1 = 91;
+	public static short f2 = 125;
 	public static short tot = (short)(f1+f2);
 	public static long estrazioni_totali = 100000000;
 	public static byte nestr = 5;					// numero di elementi estratti
@@ -19,7 +19,7 @@ public class Quiz9Es12 {
 		for(short i=f1; i<tot; i++)
 			arr[i] = 1;		// canale B
 		
-		for(int i=1; i<=10; i++)
+		for(int i=1; i<=1; i++)
 		{
 			System.out.print(i+") ");
 			es12();
