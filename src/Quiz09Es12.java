@@ -1,6 +1,6 @@
 
 
-public class Quiz9Es12 {
+public class Quiz09Es12 {
 
 	public static byte[] arr;
 	public static short f1 = 91;

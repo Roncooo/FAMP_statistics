@@ -4,12 +4,12 @@ public class Quiz10Es7 {
 	public static short n_caramelle = 1143;
 	public static short n_bambini = 100;
 	public static short caramelle_mario = 11;
-	public static long estrazioni_totali = 100000;
+	public static long estrazioni_totali = 10000000;
 	public static short[] caramelle = new short[n_bambini];	// caramelle per ogni bambino
 
 	public static void main(String[] args) {
 		
-		for(int i=1; i<=5; i++)
+		for(int i=1; i<=1; i++)
 		{
 			System.out.print(i+") ");
 			es7();
